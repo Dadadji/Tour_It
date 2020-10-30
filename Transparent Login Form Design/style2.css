@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+  /*  background: url(image.jpg);*/
+    background:url('../img/abc7.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+/*global*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+header{
+  padding:-100px;
+	z-index: 100;
+	width:100%;
+	position:fixed;
+	top:0;
+	margin-bottom: 20px;
+  background:#181818;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  height:70px;
+  border-bottom:#EF0045 3px solid;
+}
+.button{
+  border-radius: 5px;
+  height:38px;
+  background:#ef0045;
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+.button:hover{
+  color:#cccccc;
+/*  font-weight: bold;*/
+}
+.dark{
+  padding:10px;
+  background: #181818;
+  color:white;
+  margin-top:10px;
+  margin-bottom: 10px;
+
+}
+
+/*header*/
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header ul{
+  padding:0;
+  margin:0;
+}
+
+header ul li{
+  position: relative;
+  float:left;
+  display:inline;
+  padding: 0 15px 0 15px;
+}
+ul ul{
+  margin-top:8px;
+  margin-left: -9px;
+  position: inherit fixed static;
+  margin-right: -123px;
+}
+ul ul li{
+
+  width:100%;
+  display:none;
+  background-color: #181818;
+/*  border-top: 2px solid #ef0045;*/
+  width:58px;
+  text-align:left;
+/* list-style: outside;*/
+  height:30px;
+  line-height: 30px;
+  float:none;
+  padding-top:9px;
+  padding-bottom:9px;
+}
+#drpdwn{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+#rty{
+  width:92px;
+   border-top: 2px solid #ef0045;
+   border-right:2px solid #ef0045;
+   border-top-right-radius: 2mm;
+   border-top-left-radius: 2mm;
+   border-left: 2px solid #ef0045;
+}
+#uio{
+  border-bottom-right-radius: 2mm;
+  border-bottom-left-radius: 2mm;
+  border-top: 2px solid #e9e9e9;
+  border-bottom: 2px solid #ef0045;
+  border-right:2px solid #ef0045;
+  border-left: 2px solid #ef0045;
+}
+ul li:hover > ul li{
+  display:table;
+}
+
+header #branding{
+  float:left;
+}
+header #branding h1{
+  margin:0;
+  margin-top:-8px;
+
+}
+header nav{
+  float:right;
+  margin-top:12px;
+}
+header .highlight{
+   color:#EF0045;
+   font-weight: bold;
+   font-size: 45px;
+}
+header .current a{
+   color:#EF0045;
+   font-weight: bold;
+}
+header a:hover{
+  color:#cccccc;
+
+}
+.login-box{
+  margin-top: 50px;
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ef0045;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #B40C56;
+    color: #fff;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{ text-decoration: underline; color: #ccc;
+}
+footer{
+  padding:20px;
+  margin-top:-10px;
+  color:#ffffff;
+/*  background-color: #A00050;*/
+  background: linear-gradient(to left, #FF512F , #DD2476);
+  text-align:center;
+  position:relative;
+  bottom:0;
+}
+footer a{
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: none;
+
+}
+footer a:hover{
+  color:#cccccc;
+}

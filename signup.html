@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+
+
+
+
+      <link rel="stylesheet" href="css/stylesignup.css">
+
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<script type="text/javascript">
+  window.onbeforeunload = function(e) {
+  return "Do you want to exit this page?";
+};
+</script>
+
+<body background="Images/pic02.jpg">
+  <!-- Header -->
+  <header id="head">
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Tour-it</span></h1>
+      </div>
+      <nav>
+        <ul id="qwe">
+          <li ><a href="Homepage.html">Home</a></li>
+          <li ><a href="index.html">Gallery</a></li>
+           <li><a href="login.html">LogIn</a></li>
+
+           <li><a href="" >Services</a>
+            <ul><li id="rty"><a id="drpdown" href="booking.html">Booking</a></li>
+            <li id="uio"><a id="drpdown" href="cancel.html">Cancellation</a></li>
+            </ul></li>
+
+            <li><a href="Testimonial.html">Testimonial</a></li>
+           <li class="current"><a href="aboutUs.html">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <head>
+        <meta charset="utf-8">
+       <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable tours">
+    <meta name="keywords" content="Book full tours, tickets at affordable prices">
+    <meta name="author" content="Shubham Patel">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+          
+        <center>
+      <form action="index.html" method="post">
+        
+
+        <h1>Sign Up</h1>
+
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="user_password">
+          <label for="password">Confirm Password:</label>
+          <input type="password" id="password" name="user_password">
+
+          <label>Age:</label>
+          <input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18" class="light">Under 18</label><br>
+          <input type="radio" id="over_18" value="over_18" name="user_age"><label for="over_18" class="light">18 or older</label>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="number">2</span>Your profile</legend>
+        </fieldset>
+        <fieldset>
+        <label for="job">Job Role:</label>
+        <select id="job" name="user_job">
+          <optgroup label="job">
+            <option value="student">Student</option>
+            <option value="Government _employ">Government employ</option>
+            <option value="Private _employ">Private employ</option>
+          </optgroup>
+
+        </select>
+
+          <label>Interests:</label>
+          <input type="checkbox" id="Tracking" value="interest_Tracking" name="user_interest"><label class="light" for="Tracking">Tracking</label><br>
+            <input type="checkbox" id="River" value="interest_River" name="user_interest"><label class="light" for="River">River Rafting</label><br>
+
+        </fieldset>
+        <button type="submit" onclick="abc()">Sign up</button>
+      </form>
+      </center>
+    </body>
+</html>
+<script type="text/javascript">
+  function abc() {
+    var txt;
+var r = confirm("you want to submit data !");
+if (r == true) {
+    txt = "You pressed OK!";
+     window.alert("Data submitted..");
+     window.location="login.html";
+} else {
+    txt = "You pressed Cancel!";
+}
+   
+</script>
+
+<footer>
+      <a href="formpage.html">GIve Your Feedback</a></li>
+      <p><br/>Tour-it | Copyright &copy; 2018</p>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+
+<html>
+<head>
+<title>Payment</title>
+<link rel="stylesheet" href="assets/css/main.css" />
+<style>
+.r
+{
+border-radius:10px;
+}
+.p
+{
+background-color:orange;
+border-radius:10px;
+width:50%;
+}
+.p5
+{
+background-color:lightgreen;
+border-radius:10px;
+width:50%;
+
+}
+#t
+{
+
+}
+</style>
+<script>
+function change()
+{
+var z=document.getElementById("p").value;
+if(z=="a")
+{
+window.location.href="paytm.html";
+}
+if(z=="b")
+{
+window.location.href="mobiquick.html";
+}
+}
+</script>
+<script>
+function payp()
+{
+alert("Transaction successful!");
+alert("Ticket(s) sucessfully sent to your mail.");
+alert("Redirecting to Menu page.....");
+window.location.href="Homepage.html";
+
+}
+</script>
+</head>
+<body background="Images/bg.jpg">
+		<!-- Header -->
+	<header id="head">
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Tour-it</span></h1>
+			</div>
+			<nav>
+				<ul id="qwe">
+					<li ><a href="Homepage.html">Home</a></li>
+					<li ><a href="index.html">Gallery</a></li>
+					 <li><a href="login.html">LogIn</a></li>
+
+					 <li><a href="" >Services</a>
+ 						<ul><li id="rty"><a id="drpdown" href="booking.html">Booking</a></li>
+ 						<li id="uio"><a id="drpdown" href="cancel.html">Cancellation</a></li>
+ 						</ul></li>
+
+						<li><a href="Testimonial.html">Testimonial</a></li>
+					 <li class="current"><a href="aboutUs.html">About Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<div>
+<pre>
+<br><br><br><br>
+</pre>
+</div>
+<center>
+<div class="p">
+<form get="method">
+<table>
+<tr><td style="font-size:30px;">Select Payment Gateway
+<select name="pay" style="font-size:30px; border-radius:10px;" onchange="change()" id="p">
+<option>---</option>
+<option value="a">Paytm</option>
+<option value="b" SELECTED>Mobiquick</option>
+</select>
+
+</table></form>
+</div>
+<div>
+<pre>
+<br><br>
+</pre>
+</div>
+<div class="p5">
+<table>
+<tr>
+<td style="text-align:center;">
+<img src="Images/unnamed (2).png" width="200" height="50">
+</td>
+</tr>
+<tr><td><pre><br></pre></td></tr>
+<tr><td style="font-size:30px;">Mobile or Email&emsp;<input type="text" id="t" style="font-size:30px; border-radius:10px;" placeholder="Mobile or Email"></td></tr>
+<tr><td><pre><br></pre></td></tr>
+<tr><td><tr><td style="font-size:30px;">Password&emsp;&emsp;&emsp;&emsp;<input type="password" id="r" style="font-size:30px; border-radius:10px;" placeholder="Password"></td></tr></td></tr>
+<tr><td><pre><br></pre></td></tr>
+<tr><td><pre><br></pre></td></tr>
+<tr><td style="font-size:30px; text-align:center;"><input type="button" value="Pay" onclick="payp()" style="background-color:orange; font-size:30px;">
+&emsp;<input type="button" value="cancel" onclick='window.location.href="resrvation.html"' style="background-color:orange; font-size:30px;"></td></tr>
+</table>
+</div>
+</center>
+</form>
+ <footer>
+			<a href="formpage.html">GIve Your Feedback</a></li>
+      <p><br/>Tour-it | Copyright &copy; 2018</p>
+
+    </footer>
+</body>
+</html>

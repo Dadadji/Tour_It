@@ -1,0 +1,98 @@
+
+<html>
+<head>
+<title>Payment</title>
+<link rel="stylesheet" href="assets/css/main.css" />
+<style>
+.r
+{
+border-radius:10px;
+}
+.p
+{
+background-color:#cccccc;
+border-radius:10px;
+width:50%;
+}
+#t
+{
+
+}
+</style>
+<script>
+function change()
+{
+var z=document.getElementById("p").value;
+if(z=="a")
+{
+window.location.href="paytm.html";
+}
+if(z=="b")
+{
+window.location.href="mobiquick.html";
+}
+}
+</script>
+</head>
+<body background="Images/bg.jpg">
+		<!-- Header -->
+	<header id="head">
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Tour-it</span></h1>
+			</div>
+			<nav>
+				<ul id="qwe">
+					<li ><a href="Homepage.html">Home</a></li>
+					<li ><a href="index.html">Gallery</a></li>
+					 <li><a href="login.html">LogIn</a></li>
+
+					 <li><a href="" >Services</a>
+ 						<ul><li id="rty"><a id="drpdown" href="booking.html">Booking</a></li>
+ 						<li id="uio"><a id="drpdown" href="cancel.html">Cancellation</a></li>
+ 						</ul></li>
+
+						<li><a href="Testimonial.html">Testimonial</a></li>
+					 <li class="current"><a href="aboutUs.html">About Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<div>
+<pre>
+<br><br><br><br>
+</pre>
+</div>
+<center>
+<div class="p">
+<form get="method">
+<table>
+<tr><td style="font-size:30px;">Select Payment Gateway
+<select name="pay" style="font-size:30px; border-radius:10px;" onchange="change()" id="p">
+<option SELECTED>---</option>
+<option value="a">Paytm</option>
+<option value="b">Mobiquick</option>
+</select>
+
+</table></form>
+</div>
+</center>
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <footer>
+			<a href="formpage.html">GIve Your Feedback</a></li>
+      <p><br/>Tour-it | Copyright &copy; 2018</p>
+
+    </footer>
+
+</body>
+</html>

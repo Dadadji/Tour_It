@@ -1,0 +1,170 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <link rel="stylesheet" href="css1/screen.css" type="text/css" />
+    <link rel="stylesheet" href="./css/image.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable tours">
+    <meta name="keywords" content="Book full tours, tickets at affordable prices">
+    <meta name="author" content="Shubham Patel">
+    <title>Tour-it | Destination Booking</title>
+</head>
+<body>
+<script type="text/javascript">
+  function abc() {
+    var txt;
+var r = confirm("you want to book this order!");
+if (r == true) {
+    txt = "You pressed OK!";
+     window.alert("Data submitted..");
+} else {
+    txt = "You pressed Cancel!";
+}
+   
+
+var txt1;
+var r = confirm("you want proceed payment!");
+if (r == true) {
+    txt1 = "You pressed OK!";
+    window.alert("Redirecting to payment ..");
+    window.location="payment.html";
+} else {
+    txt1 = "You pressed Cancel!";
+    window.location="booking.html";
+}
+
+    // body...
+  }
+</script>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Tour-it</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li ><a href="Homepage.html">Home</a></li>
+          <li ><a href="index.html">Gallery</a></li>
+           <li><a href="login.html">LogIn</a></li>
+            <li><a href="" >Services</a>
+            <ul><li id="rty"  class="current" ><a id="drpdwn" href="booking.html">Booking</a></li>
+            <li id="uio"><a id="drpdwn" href="cancel.html">Cancellation</a></li>
+            </ul></li>
+
+           <li><a href="Testimonial.html">Testimonial</a></li>
+
+           <li><a href="aboutUs.html">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <h1 align="center">Destination Booking<br></h1>
+  <br/><br/>
+<br/><br/>
+<center>
+<form>
+YOUR NAME:<input type="text" name="yourname">
+<br/><br/>
+<br/><br/>
+ADDRESS:          <textarea rows="2" cols="20" name="address" placeholder="Enter Address">
+</textarea><br/>
+<br/>
+<br/><br/>
+SELECT STATE:
+<select City name="dropdown">
+<option value="Andhra_Pradesh" selected>Andhra Pradesh</option>
+
+<option value=“Arunachal_Pradesh" selected>Arunachal Pradesh</option>
+
+<option value=“Assam" selected>Assam</option>
+<option value=“Bihar" selected>Bihar</option>
+<option value=“Chhattisgarh" selected>Chhattisgarh</option>
+
+
+
+<option value=“Goa" selected>Goa</option>
+
+<option value=“Gujarat" selected>Gujarat</option>
+
+<option value=“Haryana" selected>Haryana</option>
+
+<option value=“Himachal Pradesh" selected>Himachal Pradesh</option>
+
+<option value=“Jammu & Kashmir" selected>Jammu & Kashmir</option>
+
+<option value=“Jharkhand" selected>Jharkhand</option>
+
+<option value=“Karnataka" selected>Karnataka</option>
+
+<option value=“Kerala" selected>Kerala</option>
+
+<option value=“Madhya Pradesh" selected>Madhya Pradesh</option>
+
+<option value=“Maharashtra" selected>Maharashtra</option>
+
+<option value=“Manipur" selected>Manipur</option>
+
+<option value=“Meghalaya" selected>Meghalaya</option>
+
+<option value=“Mizoram" selected>Mizoram</option>
+
+<option value=“Nagaland" selected>Nagaland</option>
+
+<option value=“Odisha" selected>Odisha</option>
+
+<option value=“Punjab" selected>Punjab</option>
+
+<option value=“Rajasthan" selected>Rajasthan</option>
+
+<option value=“Sikkim" selected>Sikkim</option>
+
+<option value=“Tamil Nadu" selected>Tamil Nadu</option>
+
+<option value=“Telangana" selected>Telangana</option>
+
+<option value=“Tripura" selected>Tripura</option>
+
+<option value=“Uttarakhand" selected>Uttarakhand</option>
+
+<option value=“Uttar Pradesh" selected>Uttar Pradesh</option>
+
+<option value=“West Bengal" selected>West Bengal</option>
+
+
+ </select>
+<br/><br/>
+<br/><br/>
+VISIT PLACE: <input type="text" name="landmark">
+<br/><br/>
+<br/><br/>
+DATE OF VISIT: <input type="text" name="landmark">
+<br/><br/>
+<br/><br/>
+PHONE NUMBER:<input type="NUMBER" number="phonenumber">
+<br/><br/>
+<br/><br/>
+</form>
+
+<form>
+<input type="button" onclick="abc()" name="SUBMIT" value="SUBMIT" />
+</form>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <footer >
+    <a href="formpage.html">GIve Your Feedback</a></li>
+    <p><br>Tour-it | Copyright &copy; 2018</p>
+
+  </footer>
+</body>
+
+</html>
